@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply block text-xl font-bold px-10 py-4 bg-primary border-2 border-solid border-primary transition ease-in-out duration-500;
+    }
+    .active {
+        @apply outline-1  bg-primary outline-dotted;
+    }
+}
+
+@layer utilities {
+    .hover-view {
+        color: #ffcc0d;
+        background-color: transparent;
+    }
+}
