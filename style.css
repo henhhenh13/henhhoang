@@ -16,4 +16,8 @@
         color: #ffcc0d;
         background-color: transparent;
     }
+    .boxImgAnimate {
+        transform-style: preserve-3d;
+        
+    }
 }
